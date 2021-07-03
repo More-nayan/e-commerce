@@ -1,0 +1,129 @@
+body{
+    min-height: 100vh;
+}
+.rating-star{
+    color:rgb(245, 197, 76);
+}
+.product-item{
+    max-width:300px;
+    margin: auto;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.product-item:hover{
+    transform: scale(1.1);
+    box-shadow: 0 3px 5px #bbb;
+}
+.footer-item h5{
+    color: #fff;
+}
+.footer-item ul{
+    list-style: none;
+    padding: 0;
+    font-size: 0.8rem;
+}
+.footer-item a{
+    color: #ccc;
+    text-decoration: none;
+}
+.footer-item a:hover{
+    text-decoration: underline;
+}
+.subscribe input, .subscribe button{
+    border-radius: 0;
+}
+.social-icons button{
+    border-radius: 50% !important;
+}
+.social-icons button:hover{
+    background-color: white;
+    color: #6c757d;
+}
+.social-icons i{
+    font-size: 1.5rem;
+}
+.breadcrumb{
+    background-color:#eee;
+}
+.product-small img{
+    max-width: 10rem;
+    padding: 1rem;
+}
+.cart-item, .order{
+    border:1px solid #bbb;
+    border-radius: 8px;
+    box-shadow: 0 3px 5px #bbb;
+}
+.close{
+    font-size: 1.5rem;
+    color:#bbb;
+}
+.close:hover{
+    color:black;
+}
+.login-box{
+    background-color: #eee;
+    border-radius: 20px;
+    padding: 2rem;
+}
+.success-icon{
+    font-size: 10rem;
+}
+a.logo{
+    color: black;
+    text-decoration: none;
+}
+.color-label{
+    border-radius: 50% !important;
+    margin-right: 7px;
+    padding: 0.4rem;
+}
+
+/* carousel */
+#carouselExampleDark img{
+    max-height:95vh;
+}
+.carousel-caption{
+    background-color: #ffffff66;
+}
+
+/* toast */
+.toast{
+    top:-50px;
+    left:40%;
+}
+.toast.show{
+    top:0;
+    left:0;
+}
+/* accordian */
+.accordian-text
+{
+    font-size: 0.8rem;
+    color:gray;
+}
+.accordion-btn:not(.collapsed) button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+/* accordian end */
+
+.card-badge{
+    position: relative;
+    top:-15px;
+    left:-10px;
+}
+.search-form input, .search-form button{
+    border-radius: 0;
+}
+.nav-item:hover{
+    background-color: #ffffff33;
+}
+.card-text.price{
+    color: rgb(255,111,0);
+}
+.dropdown-color a{
+  color: white;
+}
